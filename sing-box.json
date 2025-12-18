@@ -101,6 +101,11 @@
         "outbound": "direct"
       },
       {
+        "rule_set": "direct",
+        "action": "route",
+        "outbound": "direct"
+      },
+      {
         "rule_set": "bilibili_domain",
         "action": "route",
         "outbound": "bilibili"
@@ -186,6 +191,14 @@
       }
     ],
     "rule_set": [
+      {
+        "tag": "direct",
+        "rules": [
+          {
+            "domain_suffix": ["mobrtb.com"]
+          }
+        ]
+      },
       {
         "tag": "apple_ip",
         "type": "remote",
