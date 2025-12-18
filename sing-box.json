@@ -34,6 +34,11 @@
         "server": "ali"
       },
       {
+        "rule_set": "direct",
+        "action": "route",
+        "server": "ali"
+      },
+      {
         "clash_mode": "Global",
         "action": "route",
         "server": "fakeip"
